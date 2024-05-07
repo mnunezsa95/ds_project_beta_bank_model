@@ -17,6 +17,12 @@ Additionally, the model's performance will be assessed using the AUC-ROC (Area U
 
 ## Conclusion
 
+Through extensive experimentation, the Random Forest Model trained on upsampled data with balanced classes emerged as the top performer, consistently delivering high accuracy, recall, precision, F1 score, and AUC-ROC during testing.
+
+The final model achieved impressive results on unseen data, demonstrating an accuracy of 84.2%, with a recall of 57.5% and a precision of 62.5%. The balanced F1 score of 59.9% and AUC-ROC score of 83.3% underscored the model's effectiveness in identifying at-risk customers.
+
+This predictive tool equips Beta Bank with actionable insights to proactively manage customer retention, foster enduring customer relationships, and enhance competitiveness. Future work may focus on optimizing and integrating the model into Beta Bank's operational workflows to maximize its impact on reducing customer churn and driving business growth.
+
 ## Libraries
 This project utilizes the following libraries:
 - Pandas
